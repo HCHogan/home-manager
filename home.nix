@@ -4,6 +4,10 @@
   pkgs,
   ...
 }: {
+
+  imports = [
+
+  ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "hank";
@@ -36,6 +40,7 @@
     eza
     fzf
     ripgrep
+    btop-rocm
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
